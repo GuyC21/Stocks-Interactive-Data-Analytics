@@ -135,7 +135,7 @@ try:
     data_source = input('enter your preffered data_source (reccomended: yahoo): ')
     start_date = input('enter start date (format: yyyy-mm-dd): ')
     start_date = pd.to_datetime(start_date,)
-    end_date = input('enter start date (format: yyyy-mm-dd): ')
+    end_date = input('enter end date (format: yyyy-mm-dd): ')
     end_date = pd.to_datetime(end_date)
     #data_source = 'yahoo'
     #start_date = '2008-01-01'
